@@ -1,0 +1,11 @@
+name: First workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Mega
+        run: echo "welcome Mega"
+      - name: Print ci_cd
+        run: echo "welcome to ci_cd pipeline"
+        
